@@ -6,6 +6,12 @@ A data analytics project that quantifies the behavioral divide between citizens 
 
 ---
 
+## Final Report
+
+For quick review of major outcomes, see **[FINAL_REPORT.md](FINAL_REPORT.md)**.
+
+---
+
 ## Project Overview
 
 This project builds a **Proactive-Reactive Score (PRS)** system to analyse citizen engagement patterns with Aadhaar enrollment and updates across India. The system identifies populations at risk of authentication failures based on their update behavior patterns.
@@ -122,3 +128,4 @@ The Proactive-Reactive Score ranges from 0 (proactive) to 1 (reactive):
 ## License
 
 This project is for analytical purposes only.
+

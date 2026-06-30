@@ -1,0 +1,65 @@
+================================================================================
+AADHAAR PROACTIVE-REACTIVE ANALYSIS - EXECUTIVE SUMMARY
+================================================================================
+Generated: 2026-01-19 19:36
+
+ DATA OVERVIEW
+----------------------------------------
+ Total districts analyzed: 984
+ States/UTs covered: 36
+ Total Aadhaar enrollments: 5,435,484
+ Total biometric updates: 69,762,713
+ Total demographic updates: 49,293,331
+
+ PROACTIVE-REACTIVE SCORE (PRS)
+----------------------------------------
+ Mean PRS: 0.422
+ Median PRS: 0.434
+ PRS range: 0.005 - 0.999
+
+Classification distribution:
+   Transition: 613 districts (62.3%)
+   Reactive: 215 districts (21.8%)
+   Proactive: 140 districts (14.2%)
+   Crisis-Dependent: 16 districts (1.6%)
+
+ RISK ASSESSMENT
+----------------------------------------
+ Total predicted failures (90d): 240,616
+ High-confidence anomalies: 17
+ Critical risk districts: 0
+ High risk districts: 0
+
+ TOP 5 HIGH-RISK STATES
+----------------------------------------
+   Uttar Pradesh: 48,555 predicted failures
+   Bihar: 29,696 predicted failures
+   Madhya Pradesh: 22,100 predicted failures
+   West Bengal: 18,830 predicted failures
+   Rajasthan: 15,779 predicted failures
+
+ MODEL PERFORMANCE
+----------------------------------------
+ Best model: Lasso
+ R score: 0.9918
+ Stacking ensemble R: 0.9831
+ Models evaluated: 8
+
+ KEY RECOMMENDATIONS
+----------------------------------------
+1. IMMEDIATE ACTION: Focus on Crisis-Dependent districts
+    16 districts need urgent intervention
+
+2. INVESTIGATE ANOMALIES:
+    17 districts flagged by multiple methods
+
+3. REGIONAL STRATEGY:
+    Highest risk region: East (avg PRS: 0.466)
+
+4. INTERVENTION ROI:
+    Most cost-effective: Awareness Drive
+    Cost per failure prevented: 815
+
+================================================================================
+END OF EXECUTIVE SUMMARY
+================================================================================

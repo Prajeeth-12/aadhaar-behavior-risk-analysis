@@ -1,0 +1,299 @@
+{
+  "generated_at": "2026-01-15T20:50:10.089440",
+  "datasets": {
+    "enrolment": {
+      "dataset_name": "enrolment",
+      "row_count": 1006029,
+      "column_count": 10,
+      "memory_mb": 207.75559902191162,
+      "columns": {
+        "date": {
+          "dtype": "datetime64[ms]",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 92
+        },
+        "state": {
+          "dtype": "object",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 49
+        },
+        "district": {
+          "dtype": "object",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 964
+        },
+        "pincode": {
+          "dtype": "object",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 19463
+        },
+        "age_0_5": {
+          "dtype": "int64",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 671,
+          "min": 0.0,
+          "max": 2688.0,
+          "mean": 3.5257085034328037
+        },
+        "age_5_17": {
+          "dtype": "int64",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 624,
+          "min": 0.0,
+          "max": 1812.0,
+          "mean": 1.7100739640706182
+        },
+        "age_18_greater": {
+          "dtype": "int64",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 199,
+          "min": 0.0,
+          "max": 855.0,
+          "mean": 0.16734408252644806
+        },
+        "total_enrolments": {
+          "dtype": "int64",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 1028,
+          "min": 1.0,
+          "max": 3965.0,
+          "mean": 5.40312655002987
+        },
+        "month_num": {
+          "dtype": "int8",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 9,
+          "min": 3.0,
+          "max": 12.0,
+          "mean": 10.224427924045926
+        },
+        "year": {
+          "dtype": "int32",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 1,
+          "min": 2025.0,
+          "max": 2025.0,
+          "mean": 2025.0
+        }
+      },
+      "issues": []
+    },
+    "demographic": {
+      "dataset_name": "demographic",
+      "row_count": 2071700,
+      "column_count": 7,
+      "memory_mb": 402.6974678039551,
+      "columns": {
+        "date": {
+          "dtype": "datetime64[ms]",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 95
+        },
+        "state": {
+          "dtype": "object",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 58
+        },
+        "district": {
+          "dtype": "object",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 961
+        },
+        "pincode": {
+          "dtype": "object",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 19742
+        },
+        "demo_updates_5_17": {
+          "dtype": "int64",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 614,
+          "min": 0.0,
+          "max": 2690.0,
+          "mean": 2.3475522517739056
+        },
+        "demo_updates_18plus": {
+          "dtype": "int64",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 2668,
+          "min": 0.0,
+          "max": 16166.0,
+          "mean": 21.44700632330936
+        },
+        "total_demo_updates": {
+          "dtype": "int64",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 2848,
+          "min": 0.0,
+          "max": 16942.0,
+          "mean": 23.794558575083265
+        }
+      },
+      "issues": []
+    },
+    "biometric": {
+      "dataset_name": "biometric",
+      "row_count": 1861108,
+      "column_count": 7,
+      "memory_mb": 361.5510587692261,
+      "columns": {
+        "date": {
+          "dtype": "datetime64[ms]",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 89
+        },
+        "state": {
+          "dtype": "object",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 50
+        },
+        "district": {
+          "dtype": "object",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 949
+        },
+        "pincode": {
+          "dtype": "object",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 19707
+        },
+        "bio_updates_5_17": {
+          "dtype": "int64",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 2121,
+          "min": 0.0,
+          "max": 8002.0,
+          "mean": 18.390579697685464
+        },
+        "bio_updates_18plus": {
+          "dtype": "int64",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 2212,
+          "min": 0.0,
+          "max": 7625.0,
+          "mean": 19.094131023024993
+        },
+        "total_bio_updates": {
+          "dtype": "int64",
+          "null_count": 0,
+          "null_pct": 0.0,
+          "unique_count": 3380,
+          "min": 0.0,
+          "max": 13381.0,
+          "mean": 37.48471072071046
+        }
+      },
+      "issues": []
+    }
+  },
+  "geography": {
+    "total_states": 60,
+    "common_states": 47,
+    "total_districts": 1002,
+    "states_list": [
+      "100000",
+      "Andaman & Nicobar Islands",
+      "Andaman And Nicobar Islands",
+      "Andhra Pradesh",
+      "Arunachal Pradesh",
+      "Assam",
+      "Balanagar",
+      "Bihar",
+      "Chandigarh",
+      "Chhatisgarh",
+      "Chhattisgarh",
+      "Dadra & Nagar Haveli",
+      "Dadra And Nagar Haveli",
+      "Dadra And Nagar Haveli And Daman And Diu",
+      "Daman & Diu",
+      "Daman And Diu",
+      "Darbhanga",
+      "Delhi",
+      "Goa",
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jaipur",
+      "Jammu & Kashmir",
+      "Jammu And Kashmir",
+      "Jharkhand",
+      "Karnataka",
+      "Kerala",
+      "Ladakh",
+      "Lakshadweep",
+      "Madanapalle",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland",
+      "Nagpur",
+      "Odisha",
+      "Orissa",
+      "Pondicherry",
+      "Puducherry",
+      "Punjab",
+      "Puttenahalli",
+      "Raja Annamalai Puram",
+      "Rajasthan",
+      "Sikkim",
+      "Tamil Nadu",
+      "Tamilnadu",
+      "Telangana",
+      "The Dadra And Nagar Haveli And Daman And Diu",
+      "Tripura",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "Uttaranchal",
+      "West  Bengal",
+      "West Bangal",
+      "West Bengal",
+      "West Bengli",
+      "Westbengal"
+    ]
+  },
+  "master_dataset": {
+    "rows": 5004,
+    "columns": [
+      "state",
+      "district",
+      "year_month",
+      "age_0_5",
+      "age_5_17",
+      "age_18_greater",
+      "total_enrolments",
+      "demo_updates_5_17",
+      "demo_updates_18plus",
+      "total_demo_updates",
+      "bio_updates_5_17",
+      "bio_updates_18plus",
+      "total_bio_updates"
+    ],
+    "date_range": "2025-03 to 2025-12"
+  },
+  "validation_status": "PASSED"
+}
